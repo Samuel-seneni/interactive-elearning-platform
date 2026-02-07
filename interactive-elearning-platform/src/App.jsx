@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+
 
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
 import Courses from "./pages/Courses";
 import Dashboard from "./pages/Dashboard";
-import Contact from "./pages/Contact";
+import Contact from "./pages/Contact.jsx";
 import StudentProfile from "./pages/StudentProfile";
 
 const PrivateRoute = ({ children }) => {
